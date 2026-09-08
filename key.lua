@@ -1,7 +1,22 @@
-
+--[[
+    ================================================================
+    [ SCRIPT INFORMATION ]
+    Project: Custom Script
+    Author: OYB
+    YouTube: https://www.youtube.com/channel/UCAlXXV1Hbvf7WbfXARuVtiQ
+    
+    [ TERMS AND CONDITIONS ]
+    - You ARE allowed to use and modify this script for your own games.
+    - You ARE NOT allowed to re-upload, redistribute, or claim 
+      ownership of this script.
+    - Removing or altering these credits is strictly prohibited.
+    
+    Copyright (c) 2026 OYB. All rights reserved.
+    ================================================================
+]]
 local Config = {
     -- [1] PlatoBoost Settings
-    ServiceId       = 2000, -- Your PlatoBoost Service ID
+    ServiceId       = 30232, -- Your PlatoBoost Service ID
     PlatoSecret     = "74dacac1-d04f-41b1-b84c-f6e76ad40cfa", -- Your PlatoBoost Secret Key
 
     -- [2] Anti-Bypass / Global Secret Variable
@@ -24,12 +39,12 @@ local Config = {
     KeyFileName     = "Mykey.txt", -- The name of the file where the valid key will be saved for auto-login
 
     -- [6] GUI Management
-    OldGuiName      = tsb"", -- Name of the old GUI to destroy if it's already open
-    MainGuiName     = "tsb", -- Name of the main script's GUI to check if it's already executing
+    OldGuiName      = "", -- Name of the old GUI to destroy if it's already open
+    MainGuiName     = "", -- Name of the main script's GUI to check if it's already executing
 
     -- [7] Hub Information & UI Text
-    HubName         = "tsb hub", -- The main title shown at the top of the GUI
-    HubDescription  = "script maxu" -- The text shown below the title
+    HubName         = "tsb", -- The main title shown at the top of the GUI
+    HubDescription  = "tsbl" -- The text shown below the title
 }
 
 -------------------------------------------------------------------------------
